@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+
+
+.header {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 40px;
+  width: 55px;
+  padding: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 200px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.about{
+  display: flex;
+  padding: 100px 200px;
+}
+
+.aboutpic {
+  height: 275px;
+  width: 900px;
+  padding-left: 30px;
+}
+
+.abouttext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.info {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.firstbutton {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px 20px;
+}
+.title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.secondbutton {}
+
+.album {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+}
+
+.albump {
+  text-align: center;
+}
