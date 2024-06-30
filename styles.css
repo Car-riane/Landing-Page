@@ -109,3 +109,12 @@ a {
   font-weight: bolder;
   padding-right: 20px;
 }
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  color: #e5e7eb;
+}
