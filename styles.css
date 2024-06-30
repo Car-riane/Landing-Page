@@ -73,16 +73,19 @@ a {
 
 .secondbutton {}
 
-.album {
+.gallery {
   display: flex;
   justify-content: space-around;
+  
 }
 
+.album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .image {
   height: 200px;
   width: 300px;
-}
-
-.albump {
-  text-align: center;
+  border-radius: 15px 15px 15px 15px;
 }
