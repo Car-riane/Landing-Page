@@ -76,16 +76,36 @@ a {
 .gallery {
   display: flex;
   justify-content: space-around;
-  
+  padding-bottom: 100px;
 }
 
 .album {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  row-gap: 10px;
+  width: 300px;
+  text-align: center;
 }
 .image {
   height: 200px;
   width: 300px;
   border-radius: 15px 15px 15px 15px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+  text-align: center;
+  color:#1f2937;
+  padding: 10%;
+}
+
+.author {
+  float: right;
+  font-size: 22px;
+  font-weight: bolder;
+  padding-right: 20px;
 }
